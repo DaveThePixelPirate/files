@@ -1,0 +1,20 @@
+files copy
+
+variable a : sizeof(a) = 2 bytes
+/------------------------------------------------------------/
+varaible b : sizeof(b) = 4 bytes 
+bin contents of b 
+0xbfffef6c: 11111010	00111110	10001000	01000010
+hex contents of b
+0xbfffef6c:	0xfa	0x3e	0x88	0x42
+/------------------------------------------------------------/
+variable c : sizeof(c) = 1 byte
+bin contents of c
+0xbfffef69:	01001010
+hex contents of c
+0xbfffef69:	74 'J'
+
+
+
+The hex code of the output of the file 
+2d 36 37 33 30 20 36 38 2e 31 32 33 20 4a 
