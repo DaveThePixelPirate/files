@@ -14,6 +14,7 @@ int main( )
 	outputFile<<a <<" "<<b<<" "<<c;
    cout<<endl<<endl;
    }
+   outputFile.close();
    return 0;
    
 }
